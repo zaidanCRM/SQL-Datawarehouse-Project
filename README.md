@@ -94,7 +94,7 @@ Version Control: Git
 
 Project Structure
 
-<img width="645" height="407" alt="image" src="https://github.com/user-attachments/assets/342a07d7-bffe-4a8d-80eb-ba808436a3bf" />
+<img width="4164" height="2608" alt="image" src="https://github.com/user-attachments/assets/bf6d3735-32a5-4f09-8aaf-23e9db4674be" />
 
 
 Data Flow
