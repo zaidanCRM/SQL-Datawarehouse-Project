@@ -1,4 +1,7 @@
 Data Warehouse Project
+
+
+
 Project Overview
 This project implements an end-to-end data warehouse solution using SQL Server, designed to transform raw operational data into actionable business intelligence. The architecture follows the classic three-layer data warehouse pattern: Bronze (raw), Silver (cleaned), and Golden (business-ready) layers.
 Architecture
