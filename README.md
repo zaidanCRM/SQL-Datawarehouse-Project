@@ -2,7 +2,7 @@
 
 
 
-Project Overview
+#### Project Overview
 This project implements an end-to-end data warehouse solution using SQL Server, designed to transform raw operational data into actionable business intelligence. The architecture follows the classic three-layer data warehouse pattern: Bronze (raw), Silver (cleaned), and Golden (business-ready) layers.
 Architecture
 The data warehouse follows a medallion architecture with three distinct layers:
@@ -81,7 +81,7 @@ Interface: Files in folders
 
 
 
-Data Consumers
+4. Data Consumers
 The processed data serves multiple analytical purposes:
 
 BI & Reporting: Dashboards and operational reports
@@ -100,7 +100,7 @@ Project Structure
 <img width="4164" height="2608" alt="image" src="https://github.com/user-attachments/assets/bf6d3735-32a5-4f09-8aaf-23e9db4674be" />
 
 
-Data Flow
+#### Data Flow
 
 Extraction: Raw data extracted from CRM and ERP systems as CSV files
 Bronze Load: CSV files loaded into Bronze layer tables with minimal transformation
@@ -108,7 +108,7 @@ Silver Transformation: Data cleansed, validated, and standardized in Silver laye
 Golden Modeling: Business views created on top of Silver layer using star schema
 Consumption: End users query Golden layer for analytics, reporting, and ML
 
-Key Features
+#### Key Features
 
 Incremental Loading: Efficient data updates using CDC and incremental patterns
 Data Quality: Built-in validation and cleansing in Silver layer
@@ -117,8 +117,8 @@ Auditability: Full lineage tracking from source to consumption
 Performance: Star schema optimization for analytical queries
 Flexibility: Views in Golden layer allow schema changes without data reloading
 
-Getting Started
-Prerequisites
+### Getting Started
+#### Prerequisites
 
 SQL Server 2019 or later
 SQL Server Management Studio (SSMS)
